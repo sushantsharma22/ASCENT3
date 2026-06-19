@@ -3,7 +3,7 @@ Q-0001,S-1011,DM-DUP-001,Duplicate subject_id - second occurrence,EXCLUDE - dupl
 Q-0002,S-1121,DM-DUP-001,Duplicate subject_id - second occurrence,EXCLUDE - duplicate record; retain first valid occurrence only
 Q-0003,S-1301,DM-DUP-001,Duplicate subject_id - second occurrence,EXCLUDE - duplicate record; retain first valid occurrence only
 Q-0004,S-1481,DM-DATE-014,randomization_date 2025-10-10 is after data cutoff 2025-09-30,EXCLUDE - not randomized on or before interim data cutoff
-Q-0005,S-1482,DM-DATE-014,randomization_date 2025-10-15 is after data cutoff 2025-09-30,EXCLUDE - not randomized on or before interim data cutoff
+Q-0005,S-1482,DM-DATE-014,randomization_date 2025-10-10 is after data cutoff 2025-09-30,EXCLUDE - not randomized on or before interim data cutoff
 Q-0006,S-1483,DM-RAND-007,arm = 'Screen Failure' - subject not randomized (screen failure leaked into export),EXCLUDE - never randomized; absent from IWRS schedule
 Q-0007,S-1484,DM-RAND-007,arm = '' - subject not randomized (screen failure leaked into export),EXCLUDE - never randomized; absent from IWRS schedule
 Q-0008,S-1485,DM-RAND-009,"arm = 'RZB-441 100mg' - not a protocol-defined arm (valid arms: RZB-441, Placebo)",EXCLUDE - invalid/uninterpretable treatment assignment
@@ -11,21 +11,21 @@ Q-0009,S-1486,DM-AE-022,death_date 2025-04-11 precedes randomization_date 2025-0
 Q-0010,S-1487,DM-VIS-031,Baseline visit_date precedes randomization_date in visit_records,EXCLUDE - impossible visit sequence; record not analyzable
 Q-0011,S-1488,DM-RAND-040,subject_id present in clinical export but absent from IWRS randomization schedule,EXCLUDE - cannot confirm valid randomization
 Q-0012,S-1489,DM-RAND-040,subject_id present in clinical export but absent from IWRS randomization schedule,EXCLUDE - cannot confirm valid randomization
-Q-0013,S-1045,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0014,S-1094,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0015,S-1136,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0016,S-1299,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0017,S-1011,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0018,S-1111,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0019,S-1172,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0020,S-1180,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0021,S-1444,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0022,S-1149,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0023,S-1292,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0024,S-1001,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0025,S-1465,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0026,S-1078,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0027,S-1269,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0028,S-1002,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0029,S-1052,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
-Q-0030,S-1224,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0013,S-1342,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0014,S-1439,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0015,S-1365,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0016,S-1005,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0017,S-1231,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0018,S-1103,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0019,S-1414,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0020,S-1061,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0021,S-1469,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0022,S-1014,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0023,S-1175,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0024,S-1011,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0025,S-1194,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0026,S-1333,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0027,S-1444,PP-DEV-100,Randomized but never dosed,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0028,S-1417,PP-DEV-100,Wrong stratum entered at randomization,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0029,S-1267,PP-DEV-100,Prohibited concomitant biologic,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
+Q-0030,S-1353,PP-DEV-100,Study drug compliance < 80%,"PP-EXCLUDE - major protocol deviation; retain in ITT, remove from Per-Protocol"
